@@ -285,6 +285,11 @@ footer section.direcciones ul {
     flex-direction: column;
 }
 
+footer section.direcciones ul div.logo1 {
+    display: flex;
+    padding-bottom: 20px;
+}
+
 footer section.direcciones div.logo1 li {
     display: flex;
     justify-content: space-between;
@@ -294,6 +299,7 @@ footer section.direcciones div.logo1 li {
 footer section.direcciones div.logo1 div.lista {
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
 }
 
 footer section.direcciones li.datos{

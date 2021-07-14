@@ -37,6 +37,7 @@ header div.Encabezado1 div.selector span {
     padding: 24px 40px 24px 58px;
 }
 
+
 .menu {
     color: #FFFFFF;
     width: 400px;
@@ -45,7 +46,10 @@ header div.Encabezado1 div.selector span {
     justify-content: space-evenly;
 }
 
-nav.Encabezado2 div.menu li {
+nav.Encabezado2 ul.menu li::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f1b0";  
     padding-left: 20px;
 }
 
@@ -61,7 +65,7 @@ button {
 main section.principal {
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
+    height: 700px;
     background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1\ \(1\).png);
     background-size: cover;
 }
@@ -70,7 +74,7 @@ main section.principal {
 main section.principal div.textofoto {
     position: relative;
     top: 30px;
-    left: 850px;
+    left: 1100px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -148,7 +152,7 @@ main section.productos article {
 }
 
 main section.productos article p.juguete {
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 15px;
     line-height: 18px;
     font-weight: bold;
@@ -185,10 +189,10 @@ main section.contact div.bloques {
     padding-top: 15px;
 }
 
-main section.contact span {
-    color: #F3F3F3;
+main section.contact div.bloques input {
+    color: #FFFFFF;
     font-weight: normal;
-    font-size: 9px;
+    font-size: 11px;
     line-height: 11px;
     width: 340px;
     height: 40px;
@@ -198,6 +202,7 @@ main section.contact span {
     justify-content: space-between;
     padding-top: 10px;
     padding-left: 10px;
+    padding-bottom: 5px;
 }
 
 main section.contact div.botones {
@@ -251,7 +256,7 @@ main section.news nav.novedades a.suscribite {
     padding-left: 15px;
 }
 
-main section.news nav.novedades div.segundo a {
+main section.news nav.novedades div.segundo input {
     color: #A0A0A0;
     font-size: 9px;
     line-height: 11px;
@@ -260,6 +265,7 @@ main section.news nav.novedades div.segundo a {
     background-color: #FFFFFF;
     border-radius: 15px;
     padding: 14px 148px 15px 8px;
+    border: none;
 }
 
 main section.news nav.novedades button {

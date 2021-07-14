@@ -21,12 +21,12 @@
         </div>
         <nav class="Encabezado2">
             <img src="img/Logo (1).png" alt="Logo Pet Shop">
-            <div >
+            <div>
                 <ul class="menu">
-                    <li><i class="fas fa-paw"></i>Categorías</li>
-                    <li><i class="fas fa-paw"></i>Pets</li>
-                    <li><i class="fas fa-paw"></i>Nosotros</li>
-                    <li><i class="fas fa-paw"></i>Contactanos</li>
+                    <li>Categorías</li>
+                    <li>Pets</li>
+                    <li>Nosotros</li>
+                    <li>Contactanos</li>
                 </ul>
             </div>
         </nav>
@@ -69,15 +69,17 @@
 
         <section class="contact">
             <p>Contáctanos</p>
+            <form action="post">
             <div class="bloques">
-                <span>Nombre y Apellido</span>
-                <span>Ingresá tu correo electrónico</span>
-                <span>Teléfono</span>
+                <input type="text" name="datos" placeholder="Nombre y Apellido">
+                <input type="text" name="email" placeholder="Ingresá tu correo electrónico">
+                <input type="text" name="tel" placeholder="Teléfono">  
             </div>
             <div class="botones">
-                <button class="res">Resetear</button>
-                <button class="env">Enviar</button>
+                <button class="res" type="reset">Resetear</button>
+                <button class="env" type="submit">Enviar</button>
             </div>
+            </form>
         </section>
 
         <section class="news">
@@ -86,10 +88,12 @@
                     <img src="img/enviar-correo 1.png">
                     <a class="suscribite">Suscríbete para más novedades</a>
                 </div>
-                <div class="segundo">    
-                    <a>ingresá tu correo electrónico</a>
-                    <button>Suscribirme</button>
-                </div>
+                <form action="post">
+                    <div class="segundo">    
+                    <input type="text" name="correo" placeholder="ingresá tu correo electrónico">
+                    <button type="submit">Suscribirme</button>
+                     </div>
+                </form>
             </nav>
         </section>
 
